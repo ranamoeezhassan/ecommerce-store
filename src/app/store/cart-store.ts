@@ -85,3 +85,5 @@ export const useCartStore = create<CartState>((set, get) => ({
         .reduce((count, item) => count + item.quantity, 0);
     }
 }))
+
+export default useCartStore;
