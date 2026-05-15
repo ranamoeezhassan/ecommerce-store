@@ -26,7 +26,10 @@ export default function RootLayout() {
           options={{ presentation: "modal", title: "Shopping Cart" }}
         />
 
-        <Stack.Screen name="auth" options={{ headerShown: true }} />
+        <Stack.Screen
+          name="auth"
+          options={{ headerShown: true }}
+        />
       </Stack>
     </ToastProvider>
   );
