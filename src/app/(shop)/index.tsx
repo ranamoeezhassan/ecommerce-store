@@ -2,6 +2,7 @@ import { FlatList, FlatListComponent, StyleSheet, Text, View, Image } from "reac
 import { PRODUCTS } from "../../../assets/products";
 import { ProductListItem } from "../../components/product-list-item";
 import { ListHeader } from "../../components/list-header";
+import Auth from "../auth";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
         ListHeaderComponent={ListHeader}
         contentContainerStyle={styles.flatListContent}
         columnWrapperStyle={styles.flatListColumn}
-        style= {{ paddingHorizontal: 10, paddingVertical: 5 }}  
+        style={{ paddingHorizontal: 10, paddingVertical: 5 }}
       />
     </View>
   );
